@@ -1,12 +1,9 @@
 package com.vssfullstack.agendadortarefas.infrastructure.security;
 
 
-
 import com.vssfullstack.agendadortarefas.business.dto.UsuarioDTO;
 import com.vssfullstack.agendadortarefas.infrastructure.client.UsuarioClient;
-
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
@@ -15,8 +12,8 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class UserDetailsServiceImpl {
 
-    @Autowired
-    private UsuarioClient client;
+
+    private final UsuarioClient client;
 
     public UserDetails loadUserByUsername(String email, String token) {
 
