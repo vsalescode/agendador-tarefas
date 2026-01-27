@@ -3,7 +3,6 @@ package com.vssfullstack.agendadortarefas.controller;
 
 import com.vssfullstack.agendadortarefas.business.TarefasService;
 import com.vssfullstack.agendadortarefas.business.dto.TarefasDTO;
-import com.vssfullstack.agendadortarefas.infrastructure.repository.TarefasRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;
