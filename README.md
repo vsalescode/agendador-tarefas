@@ -1,4 +1,4 @@
-# ⏰ Agendador de Tarefas – Microserviço
+# ⏰ Agendador de Tarefas – Microserviço Agendador
 
 ![Java](https://img.shields.io/badge/Java-17+-red)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)
