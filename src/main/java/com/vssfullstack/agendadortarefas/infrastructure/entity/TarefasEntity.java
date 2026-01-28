@@ -27,5 +27,4 @@ public class TarefasEntity {
     private StatusNotificacaoEnum statusNotificacaoEnum;
 
 
-
 }
