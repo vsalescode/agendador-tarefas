@@ -2,7 +2,7 @@ package com.vssfullstack.agendadortarefas.infrastructure.security;
 
 
 import com.vssfullstack.agendadortarefas.business.dto.UsuarioDTO;
-import com.vssfullstack.agendadortarefas.infrastructure.client.UsuarioClient;
+import com.vssfullstack.agendadortarefas.infrastructure.security.client.UsuarioClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
