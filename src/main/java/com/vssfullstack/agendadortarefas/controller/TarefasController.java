@@ -59,7 +59,7 @@ public class TarefasController {
     public ResponseEntity<Void> deletaTarefaPorId(@RequestParam("id") String id) {
         tarefasService.deletaTarefaPorId(id);
 
-        return ResponseEntity.ok().build();
+        return ResponseEntity.noContent().build();
     }
 
 
